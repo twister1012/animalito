@@ -1,0 +1,171 @@
+@charset "utf-8";
+/* CSS Document */
+
+.audio{
+	align-content: flex-start;
+	color:#515151;
+}
+.fuente{
+	text-align: right;
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+	color: #F9F9F9;
+	
+}
+.fuente2{
+	text-align:center;
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+	color: #F9F9F9;}
+
+.body{
+	background:#FFFFFF;
+}
+
+.nav{
+	/*Bordes redondeados*/
+	-webkit-border-radius:10px;/*Para chrome y Safari*/
+	-moz-border-radius:10px;/*Para Firefox*/
+	-o-border-radius:10px;/*Para Opera*/
+	border-radius:10px;/*El estandar por defecto*/
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#4B4B4B));/*Para chrome y Safari*/
+	/*Degradados*/
+	background-image: -moz-linear-gradient(top center, #FFFFFF, #4B4B4B);/*Para Firefox*/
+	background-image: -o-linear-gradient(top, #FFFFFF, #4B4B4B);/*Para Opera*/
+	background-image: linear-gradient(top, #FFFFFF, #4B4B4B);/*El estandar por defecto*/
+	overflow:hidden;
+	padding:10px;
+	width:510px;
+	
+}
+.formato{
+	text-align: center;
+	font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+	font-size: 200%;
+	color:#FCFCFC;
+
+}
+/*Contactanos*/
+/*estilos para los ul y li*/
+.contact_form ul {
+    width:500px;
+    list-style-type:none;
+margin:0px;
+padding:0px;
+}
+.contact_form li{
+padding:12px; 
+border-bottom:1px solid #eee;
+position:relative;
+} 
+.contact_form label {
+    color: #FFFFFF;
+    display: inline-block;
+    float: left;
+    font-family: calibri;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 3px;
+    padding: 3px;
+    width: 90px;
+}
+.contact_form input {
+height:20px; 
+width:220px; 
+padding:5px 8px;
+}
+.contact_form textarea {
+padding:8px; 
+width:300px;
+}
+.contact_form button {
+margin-left:90px;
+}
+ 
+/*estilos visuales*/
+ 
+.contact_form input, .contact_form textarea { 
+border:1px solid #aaa;
+box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+border-radius:2px;
+color: #888;
+font-size: 12px;
+padding-right:30px;
+-moz-transition: padding .25s; 
+-webkit-transition: padding .25s; 
+-o-transition: padding .25s;
+transition: padding .25s;
+}
+.contact_form input:focus, .contact_form textarea:focus {
+background: #fff; 
+border:1px solid #555; 
+box-shadow: 0 0 3px #aaa; 
+padding-right:80px;
+}
+
+/* boton de Envio*/
+button.submit {
+    padding: 9px 17px;
+   font-family: Helvetica,calibri, Arial, sans-serif;
+   font-weight: bold;
+   line-height: 1;
+   color: #444;
+   border: none;
+   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.85);
+   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#bbb));
+   background-image: -moz-linear-gradient(0% 100% 90deg, #BBBBBB, #FFFFFF);
+   background-color: #7F391A;
+ 
+   border-radius: 10px;
+   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+button.submit:hover {
+opacity:.55;
+cursor: pointer; 
+color: #fff;
+}
+button.submit:active {
+border: 1px solid #222;
+box-shadow: 0 0 10px 5px #444 inset; 
+}
+
+/*Galeria Productos*/
+/*  CAPAS CONTENEDORAS  */
+ 
+#izquierda  {
+  width: 170px;
+  float: left;
+  }
+ 
+.derecha {
+  width: 750px;
+  float: left;
+  } 
+ 
+/*  ELEMENTOS DE LA GALERIA DE IMAGENES */
+ 
+#galeria {
+  padding:0;
+  margin:40px auto 0 auto;
+  list-style-type:none;
+  height:300px;
+  width:960px;
+  border:0px solid #888;
+  text-align: center;
+  }
+#galeria li {
+  width:60px;
+  height:300px;
+  float:left;
+  border-left:2px solid #000;
+  }
+#galeria li img {
+  height:300px;
+  width:60px;
+  border:0;
+  }
+#galeria li:hover {
+  background:#eee;
+  width:400px;
+  }
+#galeria li:hover img {
+  width:400px;
+  }

@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>TECNOSOLUTIONS.COM</title>
+	<style>
+		nav ul{
+	list-style:none;
+	margin:0 10px 0 10px;
+	padding:0;
+}
+nav ul li{
+	/*Bordes redondeados*/
+	-webkit-border-radius:5px;/*Chrome y Safari*/
+	-moz-border-radius:5px;/*Firefox*/
+	-o-border-radius:5px;/*Opera*/
+	border-radius:5px;/*Estandar por defecto*/
+	float:left;
+	font-family:Consolas, Andale Mono, Lucida Console, Lucida Sans Typewriter, Monaco, Courier New, monospace;
+	font-size:16px;
+	font-weight:bold;
+	margin-right:10px;
+	text-align:center;
+	/*Sombras para texto, los mismos parametros que box-shadow*/
+	text-shadow: 0px 1px 0px #C4875D;
+}
+nav ul li:hover{
+	/*Degradado de fondo*/
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to( #B2B2B2));/*Chrome y Safari*/
+	background-image: -moz-linear-gradient(top center, #FFFFFF, #B2B2B2);/*Firefox*/
+	background-image: -o-linear-gradient(top, #FFFFFF, #B2B2B2);/*Opera*/
+	background-image: linear-gradient(top, #FFFFFF, #B2B2B2);/*Estandar por defecto*/
+	/*Sombras para bloques o cajas*/
+	-webkit-box-shadow:  1px -1px 0px #E98D63;/*Chrome y Safari*/
+	-moz-box-shadow:  1px -1px 0px #E98D63;/*Firefox*/
+	-o-box-shadow:  1px -1px 0px #E98D63;/*Opera*/
+	box-shadow:  1px -1px 0px #E98D63;/*Estandar por defecto*/
+	border:1px solid #FD0707;
+}
+nav ul li a{
+	color:#000000;
+	display:block;
+	padding:10px;
+	text-decoration:none;
+	/*Transiciones: Tiempo, Efecto y Propiedades aplicadas*/
+	-webkit-transition: 0.4s linear all;/*Chrome y Safari*/
+  	-moz-transition: 0.4s linear all;/*Firefox*/
+  	-o-transition: 0.4s linear all;/*Opera*/
+  	transition: 0.4s linear all;/*Estandar por defecto*/
+}
+nav ul li a:hover {
+	color:#BC0404;
+}
+
+</style>
+<link href="style.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body class="body">
+<center><nav class="nav">
+    	<ul>
+        	<li><a href="" target="iframe_a" title="Inicio">Inicio</a></li>
+        	<li><a href="resultado.html" target="iframe_a" title="resultado">RESULTADOS</a></li>
+        </ul>
+       
+	</nav></center><br> 
+	
+
+<center><iframe name="iframe_a" width="1300px" height="1200px" src="" frameborder="0"></iframe></center>
+
+</body>
+</html>
